@@ -1,3 +1,7 @@
+require('dotenv').config();
+
+const Sequelize = require('sequelize');
+
 const router = require('express').Router();
 const apiRoutes = require('./api');
 
